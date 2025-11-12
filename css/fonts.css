@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter/Inter-Medium-B-v0_u3u.otf);
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter/Inter-Regular-Bsp27a9e.otf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter/Inter-SemiBold-CwNhtc02.otf);
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: RF Dewi Extended;
+    src: url(../fonts/RF_Dewi_Extended/RF_Dewi_Extended.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
