@@ -1,8 +1,12 @@
+.header{
+  background-color: rgba(244, 248, 250, 1);
+}
 .header_wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 24px;
+  
 }
 .avtor {
   display: flex;
@@ -21,9 +25,9 @@
 
 .header_nav {
   display: flex;
-  gap: 56px;
-  & li {
-  }
+  flex: 0 1 784px;
+  gap: 10px;
+  justify-content: space-between;
 }
 .header_nav_a {
   color: rgba(97, 99, 109, 1);
