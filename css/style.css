@@ -292,6 +292,219 @@
   color: rgb(38, 41, 49);
 }
 
+.how_it_works {
+  background: rgb(244, 248, 250);
+}
+
+.how_it_works_wrapper {
+  padding-top: 140px;
+  display: flex;
+  flex-direction: column;
+}
+
+.how_it_works_title {
+  font-family: RF Dewi Extended;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: rgb(38, 41, 49);
+}
+
+.how_it_works_title_another {
+  color: rgb(1, 118, 255);
+}
+
+.how_it_works_block {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.how_it_works_block_title1 {
+  color: rgb(38, 41, 49);
+  font-family: RF Dewi Extended;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 94px;
+  margin-bottom: 12px;
+}
+
+.how_it_works_block_text1 {
+  color: rgb(97, 99, 109);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  max-width: 174px;
+}
+
+.how_it_works_block_title2 {
+  color: rgb(38, 41, 49);
+  font-family: RF Dewi Extended;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 12px;
+  padding-top: 44px;
+}
+
+.how_it_works_block_text2 {
+  color: rgb(97, 99, 109);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 98px;
+  max-width: 257px;
+}
+
+.how_it_works_block_text3 {
+  color: rgb(97, 99, 109);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 145px;
+  max-width: 205px;
+}
+
+.how_it_works_block_title4 {
+  color: rgb(38, 41, 49);
+  font-family: RF Dewi Extended;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 44px;
+  margin-bottom: 12px;
+  padding-left: 58px;
+}
+
+.how_it_works_block_text4 {
+  color: rgb(97, 99, 109);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 82px;
+  max-width: 211px;
+  align-self: flex-end;
+}
+
+.how_it_works_block_vector1 {
+  position: absolute;
+  top: 270px;
+  left: 220px;
+}
+
+.how_it_works_block_vector2 {
+  position: absolute;
+  top: 245px;
+  left: 545px;
+}
+
+.how_it_works_block_vector3 {
+  position: absolute;
+  top: 245px;
+  left: 825px;
+}
+
+.become_partner {
+  margin-top: 32px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  background-color: rgb(1, 118, 255);
+  border-radius: 72px;
+  padding: 16px 32px;
+  align-self: center;
+}
+
+.how_it_works_block_third {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.how_it_works_block_fourth {
+  display: flex;
+  flex-direction: column;
+}
+
+.cript {
+  background: rgb(244, 248, 250);
+}
+
+.cript_wrapper {
+  padding: 144px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cript_title {
+  color: rgb(1, 118, 255);
+  font-family: RF Dewi Extended;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.cript_title_another {
+  color: rgb(38, 41, 49);
+}
+
+.cript_text {
+  color: rgb(97, 99, 109);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  max-width: 671px;
+  margin-top: 40px;
+  margin-bottom: 46px;
+}
+
+.cript_text_another {
+  color: rgb(38, 41, 49);
+}
+
+.cript_video {
+  position: relative;
+}
+
+.cript_video_player {
+  background: none;
+  position: absolute;
+  top: 218px;
+  left: 389px;
+}
+
 .container {
   max-width: 1224px;
   width: 100%;
