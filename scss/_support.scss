@@ -1,0 +1,94 @@
+.support {
+  background: rgba(244, 248, 250, 1);
+  padding-top: 166px;
+  padding-bottom: 148px;
+   background-image: url(../img/frame4.png);
+  background-repeat: no-repeat;
+  background-position: 348px 238px;
+
+}
+.support_wrapper {
+  display: flex;
+ 
+  flex-direction: column;
+
+
+
+}
+.support_wrapper_title {
+  font-family: RF Dewi Extended;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0%;
+  color: rgba(1, 118, 255, 1);
+  max-width: 697px;
+  text-align: center;
+  align-self: center;
+  margin-bottom: 56px;
+}
+.support_wrapper_title_another {
+  color: rgba(0, 0, 0, 1);
+}
+.support_wrapper_block {
+  display: flex;
+  justify-content: space-between;
+}
+.support_first_group13 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: right;
+  max-width: 237px;
+  color: rgba(97, 99, 109, 1);
+}
+.support_text_another {
+  color: rgba(38, 41, 49, 1);
+}
+.support_second_group13 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  max-width: 267px;
+  color: rgba(97, 99, 109, 1);
+}
+.support_first_group2 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: right;
+  color: rgba(97, 99, 109, 1);
+  margin: 75px 0 73px;
+  max-width: 267px;
+  padding-right: 30px;
+}
+.support_first_group {
+  margin-right: 83px;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  padding-top: 104px;
+}
+.support_second_group2 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  color: rgba(97, 99, 109, 1);
+  margin: 75px 0 73px;
+  max-width: 314px;
+  padding-left: 18px;
+}
+.support_second_group {
+  margin-left: 64px;
+  padding-top: 104px;
+}

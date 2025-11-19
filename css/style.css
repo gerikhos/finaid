@@ -505,6 +505,228 @@
   left: 389px;
 }
 
+.registration {
+  background-color: rgb(1, 118, 255);
+  background-image: url(../img/Frame3.png);
+  background-repeat: no-repeat;
+  background-position: 862px -74px;
+  overflow: hidden;
+}
+
+.registration_wrapper {
+  padding: 48px;
+}
+
+.registration_wrapper_title {
+  font-family: RF Dewi Extended;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  max-width: 893px;
+  margin-bottom: 40px;
+}
+
+.registration_wrapper_title_another {
+  color: rgb(251, 220, 124);
+}
+
+.registration_wrapper_text {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  max-width: 683px;
+}
+
+.buttons_group {
+  display: flex;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.registration_button {
+  color: rgb(38, 41, 49);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 16px 32px 16px 32px;
+  border-radius: 72px;
+  background: rgb(255, 255, 255);
+}
+
+.login_button {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  background: none;
+}
+
+.support {
+  background: rgb(244, 248, 250);
+  padding-top: 166px;
+  padding-bottom: 148px;
+  background-image: url(../img/frame4.png);
+  background-repeat: no-repeat;
+  background-position: 348px 238px;
+}
+
+.support_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.support_wrapper_title {
+  font-family: RF Dewi Extended;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0%;
+  color: rgb(1, 118, 255);
+  max-width: 697px;
+  text-align: center;
+  align-self: center;
+  margin-bottom: 56px;
+}
+
+.support_wrapper_title_another {
+  color: rgb(0, 0, 0);
+}
+
+.support_wrapper_block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.support_first_group13 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: right;
+  max-width: 237px;
+  color: rgb(97, 99, 109);
+}
+
+.support_text_another {
+  color: rgb(38, 41, 49);
+}
+
+.support_second_group13 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  max-width: 267px;
+  color: rgb(97, 99, 109);
+}
+
+.support_first_group2 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: right;
+  color: rgb(97, 99, 109);
+  margin: 75px 0 73px;
+  max-width: 267px;
+  padding-right: 30px;
+}
+
+.support_first_group {
+  margin-right: 83px;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  padding-top: 104px;
+}
+
+.support_second_group2 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  color: rgb(97, 99, 109);
+  margin: 75px 0 73px;
+  max-width: 314px;
+  padding-left: 18px;
+}
+
+.support_second_group {
+  margin-left: 64px;
+  padding-top: 104px;
+}
+
+.studying {
+  background: rgb(244, 248, 250);
+}
+
+.studying_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.studying_title {
+  color: rgb(1, 118, 255);
+  font-family: RF Dewi Extended;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.studying_title_another {
+  color: rgb(38, 41, 49);
+}
+
+.studying_text {
+  color: rgb(97, 99, 109);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  max-width: 671px;
+  margin-top: 40px;
+  margin-bottom: 46px;
+}
+
+.studying_text_another {
+  color: rgb(38, 41, 49);
+}
+
+.studying_video {
+  position: relative;
+}
+
+.studying_video_player {
+  background: none;
+  position: absolute;
+  top: 218px;
+  left: 389px;
+}
+
 .container {
   max-width: 1224px;
   width: 100%;
