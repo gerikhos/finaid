@@ -7,41 +7,42 @@
   flex-direction: column;
   align-items: center;
 }
-.cript_title{
-    color: rgba(1, 118, 255, 1);
-    font-family: RF Dewi Extended;
-font-size: 40px;
-font-weight: 400;
-line-height: 48px;
-letter-spacing: 0%;
-text-align: left;
+.cript_title {
+  color: rgba(1, 118, 255, 1);
+  font-family: RF Dewi Extended;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
 }
-.cript_title_another{
-    color: rgba(38, 41, 49, 1);
+.cript_title_another {
+  color: rgba(38, 41, 49, 1);
 }
-.cript_text{
-    color: rgba(97, 99, 109, 1);
-    font-family: Inter;
-font-size: 16px;
-font-weight: 400;
-line-height: 150%;
-letter-spacing: 0%;
-text-align: center;
-max-width: 671px;
-margin-top: 40px;
-margin-bottom: 46px;
-
+.cript_text {
+  color: rgba(97, 99, 109, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  max-width: 671px;
+  margin-top: 40px;
+  margin-bottom: 46px;
 }
-.cript_text_another{
-   color:  rgba(38, 41, 49, 1);
+.cript_text_another {
+  color: rgba(38, 41, 49, 1);
 }
-.cript_video{
-    position: relative;
+.cript_video {
+  position: relative;
 }
-.cript_video_player{
-    background: none;
-    position: absolute;
-    
-    top: 218px;
-    left: 389px;
+.cript_video_player {
+  background: rgba(249, 251, 252, 1);
+  position: absolute;
+  padding: 19px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

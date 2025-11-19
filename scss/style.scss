@@ -6,6 +6,8 @@
 @use "./registration";
 @use "./support";
 @use "./studying";
+@use "./answers";
+@use "./footer";
 .container{
     max-width: 1224px;
     width: 100%;

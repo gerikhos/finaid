@@ -499,18 +499,21 @@
 }
 
 .cript_video_player {
-  background: none;
+  background: rgb(249, 251, 252);
   position: absolute;
-  top: 218px;
-  left: 389px;
+  padding: 19px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .registration {
   background-color: rgb(1, 118, 255);
   background-image: url(../img/Frame3.png);
   background-repeat: no-repeat;
-  background-position: 862px -74px;
-  overflow: hidden;
+  background-size: 877px 748px;
+  background-position: 100% -74px;
 }
 
 .registration_wrapper {
@@ -580,7 +583,8 @@
   padding-bottom: 148px;
   background-image: url(../img/frame4.png);
   background-repeat: no-repeat;
-  background-position: 348px 238px;
+  background-position: 50% 63%;
+  background-size: 725px 717px;
 }
 
 .support_wrapper {
@@ -718,13 +722,297 @@
 
 .studying_video {
   position: relative;
+  margin-top: 48px;
 }
 
 .studying_video_player {
-  background: none;
+  background: rgb(249, 251, 252);
   position: absolute;
-  top: 218px;
-  left: 389px;
+  padding: 19px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.answers {
+  background: rgb(244, 248, 250);
+}
+
+.answers_wrapper {
+  padding: 144px 0 120px;
+}
+
+.answers_block {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.answers_left_part {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.answers_wrapper_title {
+  font-family: RF Dewi Extended;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: rgb(1, 118, 255);
+  margin-bottom: 48px;
+}
+
+.answers_wrapper_title_another {
+  color: rgb(38, 41, 49);
+}
+
+.answers_legend1 {
+  color: rgb(97, 99, 109);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.answers_legend1::marker {
+  font-size: 0;
+}
+
+.answers_details1 {
+  background-color: rgb(255, 255, 255);
+  padding: 24px;
+  border-radius: 16px;
+  max-width: 682px;
+}
+.answers_details1[open] .answers_legend1 {
+  color: rgb(38, 41, 49);
+}
+.answers_details1[open] img {
+  transform: rotate(180deg);
+}
+
+hr {
+  max-width: 634px;
+  background-color: rgb(220, 221, 229);
+  height: 1px;
+  margin: 16px 0 17px;
+}
+
+.answers_details_ol {
+  padding-left: 24px;
+}
+
+.answers_details_li {
+  color: 700, rgb(38, 41, 49);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.answers_details_p {
+  color: 700, rgb(38, 41, 49);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.answers_right_part {
+  padding: 40px 48px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  box-shadow: 0px 12px 32px 0px rgba(50, 73, 85, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.answers_right_part_title {
+  color: rgb(38, 41, 49);
+  font-family: RF Dewi Extended;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0 auto 16px;
+}
+
+.answers_right_part_text {
+  color: rgb(97, 99, 109);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.answers_right_part2 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.textbox_name {
+  padding: 16px 20px;
+  color: rgb(169, 171, 182);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  border: 1px solid rgb(196, 199, 207);
+  border-radius: 30px;
+}
+
+.textbox_phone {
+  padding: 16px 20px;
+  color: rgb(169, 171, 182);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  border: 1px solid rgb(196, 199, 207);
+  border-radius: 30px;
+}
+
+.textbox_message {
+  padding: 16px 20px;
+  color: rgb(169, 171, 182);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  border: 1px solid rgb(196, 199, 207);
+  border-radius: 30px;
+}
+
+.answers_right_part3 {
+  display: flex;
+  justify-content: center;
+}
+
+.button_send {
+  color: rgb(38, 41, 49);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  background: none;
+  padding: 16px 40px;
+  border: 1px solid rgb(1, 118, 255);
+  border-radius: 72px;
+}
+
+.footer {
+  padding: 56px 0;
+  background: rgb(255, 255, 255);
+}
+
+.footer_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.footer_block1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer_second_ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer_second_li {
+  color: rgb(97, 99, 109);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer_second {
+  display: flex;
+  gap: 120px;
+}
+
+.footer_third_group_p {
+  color: rgb(38, 41, 49);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer_third {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.footer_third_group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.copyright {
+  color: rgb(159, 161, 173);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 24px;
+}
+
+.footer_block2_p {
+  color: rgb(159, 161, 173);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer_block2 {
+  display: flex;
+  align-self: center;
+  max-width: 656px;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
 }
 
 .container {

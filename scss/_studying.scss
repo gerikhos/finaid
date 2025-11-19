@@ -36,11 +36,14 @@ margin-bottom: 46px;
 }
 .studying_video{
     position: relative;
+    margin-top: 48px;
 }
 .studying_video_player{
-    background: none;
+    background: rgba(249, 251, 252, 1);
     position: absolute;
-    
-    top: 218px;
-    left: 389px;
+    padding: 19px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

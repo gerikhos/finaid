@@ -1,0 +1,174 @@
+.answers {
+  background: rgba(244, 248, 250, 1);
+}
+.answers_wrapper {
+  padding: 144px 0 120px;
+}
+.answers_block {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+.answers_left_part {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.answers_wrapper_title {
+  font-family: RF Dewi Extended;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: rgba(1, 118, 255, 1);
+  margin-bottom: 48px;
+}
+.answers_wrapper_title_another {
+  color: rgba(38, 41, 49, 1);
+}
+.answers_legend1 {
+  color: rgba(97, 99, 109, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+.answers_legend1::marker {
+  font-size: 0;
+}
+
+.answers_details1 {
+  &[open] {
+    & .answers_legend1 {
+      color: rgba(38, 41, 49, 1);
+    }
+    & img {
+      transform: rotate(180deg);
+    }
+  }
+  background-color: rgba(255, 255, 255, 1);
+  padding: 24px;
+  border-radius: 16px;
+  max-width: 682px;
+}
+hr {
+  max-width: 634px;
+  background-color: rgba(220, 221, 229, 1);
+  height: 1px;
+  margin: 16px 0 17px;
+}
+
+.answers_details_ol {
+  padding-left: 24px;
+}
+.answers_details_li {
+  color: 700, rgba(38, 41, 49, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.answers_details_p {
+  color: 700, rgba(38, 41, 49, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.answers_right_part {
+  padding: 40px 48px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 30px;
+  box-shadow: 0px 12px 32px 0px rgba(50, 73, 85, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.answers_right_part_title {
+  color: rgba(38, 41, 49, 1);
+  font-family: RF Dewi Extended;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0 auto 16px;
+}
+.answers_right_part_text {
+  color: rgba(97, 99, 109, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.answers_right_part2 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.textbox_name {
+  padding: 16px 20px;
+  color: rgba(169, 171, 182, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  border: 1px solid rgba(196, 199, 207, 1);
+  border-radius: 30px;
+}
+.textbox_phone {
+  padding: 16px 20px;
+  color: rgba(169, 171, 182, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  border: 1px solid rgba(196, 199, 207, 1);
+  border-radius: 30px;
+
+}
+.textbox_message {
+  padding: 16px 20px;
+  color: rgba(169, 171, 182, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  border: 1px solid rgba(196, 199, 207, 1);
+  border-radius: 30px;
+}
+.answers_right_part3{
+    display: flex;
+    justify-content: center;
+}
+.button_send{
+    color: rgba(38, 41, 49, 1);
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+background: none;
+    padding: 16px 40px;
+    border: 1px solid rgba(1, 118, 255, 1);
+border-radius: 72px;
+
+}
