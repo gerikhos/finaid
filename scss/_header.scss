@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  & p {
+  & a {
     color: rgba(38, 41, 49, 1);
     font-family: Inter;
     font-size: 16px;
@@ -22,7 +22,9 @@
     text-align: left;
   }
 }
-
+.menu{
+  display: none;
+}
 .header_nav {
   display: flex;
   flex: 0 1 784px;

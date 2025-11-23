@@ -15,7 +15,7 @@
   align-items: center;
   gap: 8px;
 }
-.avtor p {
+.avtor a {
   color: rgb(38, 41, 49);
   font-family: Inter;
   font-size: 16px;
@@ -23,6 +23,10 @@
   line-height: 19px;
   letter-spacing: 0%;
   text-align: left;
+}
+
+.menu {
+  display: none;
 }
 
 .header_nav {
@@ -55,6 +59,8 @@
   padding-top: 128px;
   padding-bottom: 144px;
   z-index: 1;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .right_part {
@@ -735,6 +741,46 @@
   transform: translate(-50%, -50%);
 }
 
+.gray_link:hover {
+  color: rgb(38, 41, 49);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.gray_link:active {
+  color: rgb(38, 41, 49);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.dark_link:hover {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.blue_link:hover {
+  color: rgb(23, 82, 151);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
 .answers {
   background: rgb(244, 248, 250);
 }
@@ -1020,4 +1066,70 @@ hr {
   width: 100%;
   margin: 0 auto;
   padding: 0 12px;
+}
+
+.blue_button:hover {
+  border-radius: 72px;
+  box-shadow: 0px 4px 20px 0px rgba(16, 109, 217, 0.5);
+  background: rgb(20, 113, 222);
+}
+
+.blue_button:active {
+  border-radius: 72px;
+  box-shadow: inset 0px 0px 10px 0px rgb(27, 83, 150);
+  background: rgb(20, 113, 222);
+}
+
+.white_button:hover {
+  border-radius: 52px;
+  box-shadow: 0px 8px 16px 0px rgba(50, 73, 85, 0.3);
+  background: rgb(255, 255, 255);
+}
+
+.white_button:active {
+  border-radius: 52px;
+  box-shadow: inset 0px 0px 10px 0px rgba(27, 83, 150, 0.6);
+  background: rgb(255, 255, 255);
+}
+
+.white_button2:hover {
+  box-sizing: border-box;
+  border: 1px solid rgb(1, 118, 255);
+  border-radius: 72px;
+  background: rgb(1, 118, 255);
+  color: rgb(255, 255, 255);
+}
+
+.white_button2:active {
+  border-radius: 72px;
+  box-shadow: inset 0px 0px 10px 0px rgb(27, 83, 150);
+  background: rgb(20, 113, 222);
+  color: rgb(255, 255, 255);
+}
+
+.button_play:hover {
+  box-shadow: 0px 3px 16px 0px rgb(0, 0, 0);
+  background: rgb(1, 118, 255);
+}
+
+.button_play:active {
+  box-shadow: inset 0px 0px 10px 0px rgba(27, 83, 150, 0.7);
+  background: rgb(1, 118, 255);
+}
+
+.input:hover {
+  border: 1px solid rgb(97, 99, 109);
+  border-radius: 30px;
+}
+
+.input:focus {
+  border: 1px solid rgb(0, 109, 202);
+  border-radius: 30px;
+  box-shadow: 0px 0px 0px 3px rgba(0, 143, 248, 0.2);
+}
+
+.input:invalid {
+  border: 1px solid rgb(238, 86, 86);
+  border-radius: 30px;
+  box-shadow: 0px 0px 0px 3px rgba(255, 125, 137, 0.2);
 }/*# sourceMappingURL=style.css.map */

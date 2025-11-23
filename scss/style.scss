@@ -8,10 +8,64 @@
 @use "./studying";
 @use "./answers";
 @use "./footer";
-.container{
-    max-width: 1224px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 12px;
+.container {
+  max-width: 1224px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 12px;
 }
-
+.blue_button:hover {
+  border-radius: 72px;
+  box-shadow: 0px 4px 20px 0px rgba(16, 109, 217, 0.5);
+  background: rgba(20, 113, 222, 1);
+}
+.blue_button:active {
+  border-radius: 72px;
+  box-shadow: inset 0px 0px 10px 0px rgba(27, 83, 150, 1);
+  background: rgba(20, 113, 222, 1);
+}
+.white_button:hover {
+  border-radius: 52px;
+  box-shadow: 0px 8px 16px 0px rgba(50, 73, 85, 0.3);
+  background: rgba(255, 255, 255, 1);
+}
+.white_button:active {
+  border-radius: 52px;
+  box-shadow: inset 0px 0px 10px 0px rgba(27, 83, 150, 0.6);
+  background: rgba(255, 255, 255, 1);
+}
+.white_button2:hover {
+  box-sizing: border-box;
+  border: 1px solid rgba(1, 118, 255, 1);
+  border-radius: 72px;
+  background: rgba(1, 118, 255, 1);
+  color: rgba(255, 255, 255, 1);
+}
+.white_button2:active {
+  border-radius: 72px;
+  box-shadow: inset 0px 0px 10px 0px rgba(27, 83, 150, 1);
+  background: rgba(20, 113, 222, 1);
+  color: rgba(255, 255, 255, 1);
+}
+.button_play:hover {
+  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 1);
+  background: rgba(1, 118, 255, 1);
+}
+.button_play:active {
+  box-shadow: inset 0px 0px 10px 0px rgba(27, 83, 150, 0.7);
+  background: rgba(1, 118, 255, 1);
+}
+.input:hover {
+  border: 1px solid rgba(97, 99, 109, 1);
+  border-radius: 30px;
+}
+.input:focus {
+  border: 1px solid rgba(0, 109, 202, 1);
+  border-radius: 30px;
+  box-shadow: 0px 0px 0px 3px rgba(0, 143, 248, 0.2);
+}
+.input:invalid {
+  border: 1px solid rgba(238, 86, 86, 1);
+  border-radius: 30px;
+  box-shadow: 0px 0px 0px 3px rgba(255, 125, 137, 0.2);
+}
