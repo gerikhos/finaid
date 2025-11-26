@@ -37,12 +37,19 @@
 .cript_video {
   position: relative;
 }
+.svg_play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .cript_video_player {
   background: rgba(249, 251, 252, 1);
   position: absolute;
-  padding: 19px;
   border-radius: 50%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 72px;
+  height: 72px;
 }

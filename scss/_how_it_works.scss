@@ -141,3 +141,14 @@
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 992px) {
+   .how_it_works_block_vector1 {
+    display: none;
+  }
+  .how_it_works_block_vector2 {
+    display: none;
+  }
+  .how_it_works_block_vector3 {
+    display: none;
+  }
+}

@@ -32,7 +32,10 @@
               <a href="#" class="header_nav_a gray_link">FAQ</a>
             </li>
           </ul>
-          <img src="./img/menu_28.svg" class="menu" alt="">
+          <button type="button" class="menu">
+            <span></span>
+            
+          </button>
           <div class="avtor">
             <img src="./img/door_arrow.svg" alt="" />
             <a href="#" class="avtor_text dark_link">Авторизация</a>
@@ -66,7 +69,11 @@
               <p class="login">Войти в систему</p>
             </div>
             <div class="left_part_block_second">
-              <input type="text" class="textbox_login input" placeholder="Логин" />
+              <input
+                type="text"
+                class="textbox_login input"
+                placeholder="Логин"
+              />
               <div class="password_div">
                 <input
                   type="text"
@@ -77,13 +84,17 @@
                   <img src="./img/LastAddon.svg" alt="" />
                 </button>
               </div>
-              <p class="recover_password">Восстановить пароль</p>
+              <p class="recover_password gray_link">Восстановить пароль</p>
             </div>
             <div class="left_part_block_third">
-              <button type="button" class="button_login white_button2">Войти</button>
+              <button type="button" class="button_login white_button2">
+                Войти
+              </button>
               <p class="no_account">
                 Нет аккаунта?
-                <span class="no_account_register blue_link">Зарегистрируйтесь!</span>
+                <span class="no_account_register blue_link"
+                  >Зарегистрируйтесь!</span
+                >
               </p>
             </div>
           </div>
@@ -179,7 +190,9 @@
               class="how_it_works_block_vector3"
             />
           </div>
-          <button type="button" class="become_partner blue_button">Стать партнёром</button>
+          <button type="button" class="become_partner blue_button">
+            Стать партнёром
+          </button>
         </div>
       </div>
     </section>
@@ -197,7 +210,24 @@
           <div class="cript_video">
             <video src="" poster="./img/vid1.png"></video>
             <button type="button" class="cript_video_player button_play">
-              <img src="./img/play.png" alt=""  />
+              <svg
+                class="svg_play"
+                viewBox="0 0 35 35"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="35.000000"
+                height="35.000000"
+                fill="none"
+                customFrame="#000000"
+              >
+                <path
+                  id="Polygon 2"
+                  d="M29.1913 20.25C30.7309 22.9167 28.8064 26.25 25.7272 26.25L9.27276 26.25C6.19356 26.25 4.26906 22.9167 5.80866 20.25L14.0359 6C15.5755 3.33333 19.4245 3.33333 20.9641 6L29.1913 20.25Z"
+                  fill="rgb(1,118,255)"
+                  fill-rule="evenodd"
+                  transform="matrix(-4.37114e-08,1,-1,-4.37114e-08,35,0)"
+                />
+              </svg>
             </button>
           </div>
         </div>
@@ -281,7 +311,24 @@
           <div class="studying_video">
             <video src="" poster="./img/vid2.png"></video>
             <button type="button" class="studying_video_player button_play">
-              <img src="./img/play.png"  alt="" />
+              <svg
+                class="svg_play"
+                viewBox="0 0 35 35"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="35.000000"
+                height="35.000000"
+                fill="none"
+                customFrame="#000000"
+              >
+                <path
+                  id="Polygon 2"
+                  d="M29.1913 20.25C30.7309 22.9167 28.8064 26.25 25.7272 26.25L9.27276 26.25C6.19356 26.25 4.26906 22.9167 5.80866 20.25L14.0359 6C15.5755 3.33333 19.4245 3.33333 20.9641 6L29.1913 20.25Z"
+                  fill="rgb(1,118,255)"
+                  fill-rule="evenodd"
+                  transform="matrix(-4.37114e-08,1,-1,-4.37114e-08,35,0)"
+                />
+              </svg>
             </button>
           </div>
         </div>
@@ -290,70 +337,181 @@
     <section class="answers">
       <div class="container">
         <div class="answers_wrapper">
-          <h2 class="answers_wrapper_title">Ответы <span class="answers_wrapper_title_another">на вопросы</span></h2>
+          <h2 class="answers_wrapper_title">
+            Ответы <span class="answers_wrapper_title_another">на вопросы</span>
+          </h2>
           <div class="answers_block">
-          <div class="answers_left_part">
-            <details class="answers_details1" open>
-              <summary class="answers_legend1">Как я могу зарегистрировать своих клиентов в системе?
-                <img src="./img/ChevronUp.svg" alt="" class="answers_marker">
-              </summary>
-              <hr/>
-              <p class="answers_details_p">Для регистрации клиентов в системе необходимо выполнить следующие шаги:</p>
-              <ol class="answers_details_ol">
-                <li class="answers_details_li">Авторизоваться в личном кабинете.</li>
-                <li class="answers_details_li">Перейти в раздел "Мои клиенты".</li>
-                <li class="answers_details_li">Нажать на кнопку "Добавить клиента".</li>
-                <li class="answers_details_li">Заполнить необходимую информацию о клиенте, такую как ФИО, контактные данные, информацию о доходах и т.д.</li>
-                <li class="answers_details_li">Нажать на кнопку "Сохранить".</li>
-                <li class="answers_details_li">Карточка нового клиента будет отображаться в списке "Мои клиенты".</li>
-              </ol>
-            </details>
-            <details class="answers_details1">
-              <summary class="answers_legend1">Могут ли мои клиенты стать партнерами?
-                <img src="./img/ChevronUp.svg" alt="">
-              </summary>
-            </details>
-            <details class="answers_details1">
-              <summary class="answers_legend1">Сколько времени занимает перечисление доходов моим партнерам?
-                <img src="./img/ChevronUp.svg" alt="">
-              </summary>
-            </details>
-            <details class="answers_details1">
-              <summary class="answers_legend1">Как я могу получить дополнительную поддержку или помощь в работе с системой?
-                <img src="./img/ChevronUp.svg" alt="">
-              </summary>
-            </details>
-            <details class="answers_details1">
-              <summary class="answers_legend1">Как долго регистрируется клиент в системе?
-                <img src="./img/ChevronUp.svg" alt="">
-              </summary>
-            </details>
-            <details class="answers_details1">
-              <summary class="answers_legend1">Есть ли требования к клиентам для использования сервиса?
-                <img src="./img/ChevronUp.svg" alt="">
-              </summary>
-            </details>
-            <details class="answers_details1">
-              <summary class="answers_legend1">Как прекратить сотрудничество с Finaid?
-                <img src="./img/ChevronUp.svg" alt="">
-              </summary>
-            </details>
+            <div class="answers_left_part">
+              <details class="answers_details1" open>
+                <summary class="answers_legend1">
+                  Как я могу зарегистрировать своих клиентов в системе?
+                  <img
+                    src="./img/ChevronUp.svg"
+                    alt=""
+                    class="answers_marker"
+                  />
+                </summary>
+                <div class="details_div">
+                  <hr />
+                  <p class="answers_details_p">
+                    Для регистрации клиентов в системе необходимо выполнить
+                    следующие шаги:
+                  </p>
+                  <ol class="answers_details_ol">
+                    <li class="answers_details_li">
+                      Авторизоваться в личном кабинете.
+                    </li>
+                    <li class="answers_details_li">
+                      Перейти в раздел "Мои клиенты".
+                    </li>
+                    <li class="answers_details_li">
+                      Нажать на кнопку "Добавить клиента".
+                    </li>
+                    <li class="answers_details_li">
+                      Заполнить необходимую информацию о клиенте, такую как ФИО,
+                      контактные данные, информацию о доходах и т.д.
+                    </li>
+                    <li class="answers_details_li">
+                      Нажать на кнопку "Сохранить".
+                    </li>
+                    <li class="answers_details_li">
+                      Карточка нового клиента будет отображаться в списке "Мои
+                      клиенты".
+                    </li>
+                  </ol>
+                </div>
+              </details>
+              <details class="answers_details1">
+                <summary class="answers_legend1">
+                  Могут ли мои клиенты стать партнерами?
+                  <img src="./img/ChevronUp.svg" alt="" />
+                </summary>
+                <div class="details_div">
+                  <hr />
+                  <p class="answers_details_p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellendus impedit maxime illum dignissimos. Quam dolores
+                    officiis, saepe nulla voluptate animi rerum excepturi? Vero
+                    culpa minima necessitatibus magnam doloremque corporis
+                    aspernatur?
+                  </p>
+                </div>
+              </details>
+              <details class="answers_details1">
+                <summary class="answers_legend1">
+                  Сколько времени занимает перечисление доходов моим партнерам?
+                  <img src="./img/ChevronUp.svg" alt="" />
+                </summary>
+                <div class="details_div">
+                  <hr />
+                  <p class="answers_details_p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellendus impedit maxime illum dignissimos. Quam dolores
+                    officiis, saepe nulla voluptate animi rerum excepturi? Vero
+                    culpa minima necessitatibus magnam doloremque corporis
+                    aspernatur?
+                  </p>
+                </div>
+              </details>
+              <details class="answers_details1">
+                <summary class="answers_legend1">
+                  Как я могу получить дополнительную поддержку или помощь в
+                  работе с системой?
+                  <img src="./img/ChevronUp.svg" alt="" />
+                </summary>
+                <div class="details_div">
+                  <hr />
+                  <p class="answers_details_p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellendus impedit maxime illum dignissimos. Quam dolores
+                    officiis, saepe nulla voluptate animi rerum excepturi? Vero
+                    culpa minima necessitatibus magnam doloremque corporis
+                    aspernatur?
+                  </p>
+                </div>
+              </details>
+              <details class="answers_details1">
+                <summary class="answers_legend1">
+                  Как долго регистрируется клиент в системе?
+                  <img src="./img/ChevronUp.svg" alt="" />
+                </summary>
+                <div class="details_div">
+                  <hr />
+                  <p class="answers_details_p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellendus impedit maxime illum dignissimos. Quam dolores
+                    officiis, saepe nulla voluptate animi rerum excepturi? Vero
+                    culpa minima necessitatibus magnam doloremque corporis
+                    aspernatur?
+                  </p>
+                </div>
+              </details>
+              <details class="answers_details1">
+                <summary class="answers_legend1">
+                  Есть ли требования к клиентам для использования сервиса?
+                  <img src="./img/ChevronUp.svg" alt="" />
+                </summary>
+                <div class="details_div">
+                  <hr />
+                  <p class="answers_details_p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellendus impedit maxime illum dignissimos. Quam dolores
+                    officiis, saepe nulla voluptate animi rerum excepturi? Vero
+                    culpa minima necessitatibus magnam doloremque corporis
+                    aspernatur?
+                  </p>
+                </div>
+              </details>
+              <details class="answers_details1">
+                <summary class="answers_legend1">
+                  Как прекратить сотрудничество с Finaid?
+                  <img src="./img/ChevronUp.svg" alt="" />
+                </summary>
+                <div class="details_div">
+                  <hr />
+                  <p class="answers_details_p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellendus impedit maxime illum dignissimos. Quam dolores
+                    officiis, saepe nulla voluptate animi rerum excepturi? Vero
+                    culpa minima necessitatibus magnam doloremque corporis
+                    aspernatur?
+                  </p>
+                </div>
+              </details>
+            </div>
+            <div class="answers_right_part">
+              <div class="answers_right_part1">
+                <h3 class="answers_right_part_title">Остались вопросы?</h3>
+                <p class="answers_right_part_text">
+                  Введите своё имя и телефон. Мы свяжемся с вами в течение 2
+                  часов
+                </p>
+              </div>
+              <div class="answers_right_part2">
+                <input
+                  type="text"
+                  class="textbox_name input"
+                  placeholder="Ваше имя"
+                />
+                <input
+                  type="text"
+                  class="textbox_phone input"
+                  placeholder="+375 (_ _)  _ _ _ - _ _ - _ _"
+                />
+                <textarea
+                  class="textbox_message"
+                  placeholder="Текст сообщения.."
+                  cols="14"
+                  rows="4"
+                ></textarea>
+              </div>
+              <div class="answers_right_part3">
+                <button type="button" class="button_send white_button2">
+                  Отправить
+                </button>
+              </div>
+            </div>
           </div>
-          <div class="answers_right_part">
-            <div class="answers_right_part1">
-            <h3 class="answers_right_part_title">Остались вопросы?</h3>
-            <p class="answers_right_part_text">Введите своё имя и телефон. Мы свяжемся с вами в течение 2 часов</p>
-            </div>
-            <div class="answers_right_part2">
-              <input type="text" class="textbox_name input" placeholder="Ваше имя" />
-              <input type="text" class="textbox_phone input" placeholder="+375 (_ _)  _ _ _ - _ _ - _ _" />
-              <textarea class="textbox_message" placeholder="Текст сообщения.." cols="14" rows="4"></textarea>
-            </div>
-            <div class="answers_right_part3">
-              <button type="button" class="button_send white_button2">Отправить</button>
-            </div>
-          </div>
-        </div>
         </div>
       </div>
     </section>
@@ -361,41 +519,179 @@
       <div class="container">
         <div class="footer_wrapper">
           <div class="footer_block1">
-          <div class="footer_first">
-            <img src="./img/finaid-logo.svg" alt="">
-            <p class="copyright">Copyright © 2023 finaid</p>
-          </div>
-          <div class="footer_second">
-            <ul class="footer_second_ul">
-              <li ><a href="#" class="footer_second_li gray_link">О компании</a></li>
-              <li ><a href="#" class="footer_second_li gray_link">Как это работает?</a></li>
-              <li ><a href="#" class="footer_second_li gray_link">Для сотрудничества</a></li>
-            </ul>
-            <ul class="footer_second_ul">
-              <li ><a href="#" class="footer_second_li gray_link">О Криптовалюте</a></li>
-              <li ><a href="#" class="footer_second_li gray_link">Поддержка</a></li>
-              <li ><a href="#" class="footer_second_li gray_link">FAQ</a></li>
-            </ul>
-          </div>
-          <div class="footer_third">
-            <div class="footer_third_group"><a href="#">
-              <img src="./img/door_arrow.svg" alt=""></a>
-              <a href="#" class="footer_third_group_p dark_link">Авторизация</a>
+            <div class="footer_first">
+              <img src="./img/finaid-logo.svg" alt="" />
+              <p class="copyright">Copyright © 2023 finaid</p>
             </div>
-            <div class="footer_third_group"><a href="#">
-              <img src="./img/smartphone.svg" alt=""></a>
-             <a href="#" class="footer_third_group_p dark_link">+ 375(44) 121 12 12</a>
+            <div class="footer_second">
+              <ul class="footer_second_ul">
+                <li>
+                  <a href="#" class="footer_second_li gray_link">О компании</a>
+                </li>
+                <li>
+                  <a href="#" class="footer_second_li gray_link"
+                    >Как это работает?</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="footer_second_li gray_link"
+                    >Для сотрудничества</a
+                  >
+                </li>
+              </ul>
+              <ul class="footer_second_ul">
+                <li>
+                  <a href="#" class="footer_second_li gray_link"
+                    >О Криптовалюте</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="footer_second_li gray_link">Поддержка</a>
+                </li>
+                <li><a href="#" class="footer_second_li gray_link">FAQ</a></li>
+              </ul>
             </div>
-            <div class="footer_third_group"><a href="#">
-              <img src="./img/mail.svg" alt=""></a>
-              <a href="#" class="footer_third_group_p dark_link">Moneyfinaid@gmail.com</a>
+            <div class="footer_third">
+              <div class="footer_third_group">
+                <a href="#" class="footer_third_group_p dark_link"
+                  >
+                  <svg
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="20.000000"
+                    height="20.000000"
+                    fill="none"
+                  >
+                    <rect
+                      id="door_arrow_left_outline_28"
+                      width="20.000000"
+                      height="20.000000"
+                      x="0.000000"
+                      y="0.000000"
+                    />
+                    <g id="Source" opacity="0">
+                      <path
+                        id="Vector 5"
+                        d="M6.42857 0L4.57143 0C2.97128 0 2.1712 0 1.56003 0.31141C1.02242 0.585334 0.585334 1.02242 0.31141 1.56003C-1.19209e-07 2.1712 -1.46081e-07 2.97128 -1.99823e-07 4.57143L-1.99823e-07 9.71429C-1.26212e-07 11.3144 -8.9407e-08 12.1145 0.31141 12.7257C0.585335 13.2633 1.02242 13.7004 1.56003 13.9743C2.1712 14.2857 2.97128 14.2857 4.57143 14.2857L6.42857 14.2857"
+                        stroke="rgb(63,138,224)"
+                        stroke-width="1.42857146"
+                        transform="matrix(-1,-1.22465e-16,1.22465e-16,-1,17.1428,17.1426)"
+                      />
+                      <path
+                        id="Vector 6"
+                        d="M2.85718 10L11.4286 10"
+                        stroke="rgb(63,138,224)"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.42857146"
+                      />
+                      <path
+                        id="Vector 8"
+                        d="M5.71429 3.09474e-15L2.85714 2.85714L0 0"
+                        stroke="rgb(63,138,224)"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.42857146"
+                        transform="matrix(6.12323e-17,-1,1,6.12323e-17,8.57141,12.8569)"
+                      />
+                    </g>
+                    <path
+                      id="↳ Icon Color"
+                      d="M12.602 17.8574L10.7143 17.8574C10.3198 17.8574 9.99996 17.5376 9.99996 17.1431C9.99996 16.7486 10.3198 16.4288 10.7143 16.4288L12.5714 16.4288C13.3833 16.4288 13.9492 16.4282 14.3898 16.3922C14.8221 16.3569 15.0704 16.2911 15.2585 16.1952C15.6617 15.9898 15.9895 15.662 16.195 15.2588C16.2908 15.0706 16.3567 14.8223 16.392 14.39C16.428 13.9494 16.4285 13.3835 16.4285 12.5716L16.4285 7.42878C16.4285 6.61692 16.428 6.05098 16.392 5.61038C16.3567 5.17812 16.2908 4.92977 16.195 4.74166C15.9895 4.33845 15.6617 4.01064 15.2585 3.8052C15.0704 3.70935 14.8221 3.64351 14.3898 3.60819C13.9492 3.57219 13.3833 3.57164 12.5714 3.57164L10.7143 3.57164C10.3198 3.57164 9.99996 3.25184 9.99996 2.85735C9.99996 2.46286 10.3198 2.14307 10.7143 2.14307L12.602 2.14307L12.6021 2.14307C13.3762 2.14306 14.0005 2.14305 14.5061 2.18436C15.0267 2.2269 15.484 2.31677 15.9071 2.53233C16.5791 2.87473 17.1254 3.42109 17.4678 4.0931C17.6834 4.51617 17.7733 4.97344 17.8158 5.49405C17.8571 5.99968 17.8571 6.62407 17.8571 7.3982L17.8571 12.6022C17.8571 13.3763 17.8571 14.0007 17.8158 14.5064C17.7733 15.027 17.6834 15.4843 17.4678 15.9073C17.1254 16.5793 16.5791 17.1257 15.9071 17.4681C15.484 17.6837 15.0267 17.7735 14.5061 17.8161C14.0005 17.8574 13.3761 17.8574 12.602 17.8574ZM2.14282 10.0002C2.14282 9.60572 2.46262 9.28592 2.85711 9.28592L9.7041 9.28592L8.06632 7.64814C7.78737 7.3692 7.78737 6.91694 8.06632 6.63799C8.34526 6.35904 8.79752 6.35904 9.07647 6.63799L11.9331 9.49462C11.9348 9.49635 11.9365 9.49808 11.9383 9.49982C12.0044 9.56721 12.0546 9.64446 12.0886 9.72679C12.1233 9.81039 12.1425 9.902 12.1428 9.99807C12.1428 9.99878 12.1428 9.99949 12.1428 10.0002C12.1428 10.0009 12.1428 10.0016 12.1428 10.0024C12.1423 10.1964 12.0643 10.3722 11.9383 10.5006C11.9365 10.5023 11.9348 10.5041 11.9331 10.5058L9.07647 13.3624C8.79752 13.6414 8.34526 13.6414 8.06632 13.3624C7.78737 13.0835 7.78737 12.6312 8.06632 12.3523L9.7041 10.7145L2.85711 10.7145C2.46262 10.7145 2.14282 10.3947 2.14282 10.0002Z"
+                      fill="rgb(38,41,49)"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                 <span>Авторизация</span></a
+                >
+              </div>
+              <div class="footer_third_group">
+                <a href="#" class="footer_third_group_p dark_link"
+                  >
+                  <svg
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="20.000000"
+                    height="20.000000"
+                    fill="none"
+                  >
+                    <rect
+                      id="smartphone_outline_28"
+                      width="20.000000"
+                      height="20.000000"
+                      x="0.000000"
+                      y="0.000000"
+                    />
+                    <g id="Source" opacity="0">
+                      <rect
+                        id="rectangle"
+                        width="10.000000"
+                        height="15.714285"
+                        x="4.999930"
+                        y="2.142997"
+                        rx="2.142857"
+                        stroke="rgb(63,138,224)"
+                        stroke-width="1.42857146"
+                      />
+                      <path
+                        id="line"
+                        d="M9.28564 15L10.7142 15"
+                        stroke="rgb(63,138,224)"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.42857146"
+                      />
+                    </g>
+                    <path
+                      id="↳ Icon Color"
+                      d="M4.59705 2.98874C4.28564 3.59991 4.28564 4.39999 4.28564 6.00014L4.28564 14.0001C4.28564 15.6003 4.28564 16.4004 4.59705 17.0115C4.87098 17.5491 5.30807 17.9862 5.84567 18.2602C6.45685 18.5716 7.25692 18.5716 8.85707 18.5716L11.1428 18.5716C12.7429 18.5716 13.543 18.5716 14.1542 18.2602C14.6918 17.9862 15.1289 17.5491 15.4028 17.0115C15.7142 16.4004 15.7142 15.6003 15.7142 14.0001L15.7142 6.00014C15.7142 4.39999 15.7142 3.59991 15.4028 2.98874C15.1289 2.45113 14.6918 2.01404 14.1542 1.74012C13.543 1.42871 12.7429 1.42871 11.1428 1.42871L8.85707 1.42871C7.25692 1.42871 6.45685 1.42871 5.84567 1.74012C5.30807 2.01404 4.87098 2.45113 4.59705 2.98874ZM11.1428 2.85728L8.85707 2.85728C8.03343 2.85728 7.50161 2.85839 7.09684 2.89146C6.70875 2.92317 6.56486 2.977 6.49423 3.01299C6.22543 3.14995 6.00688 3.36849 5.86992 3.6373C5.83393 3.70793 5.78011 3.85181 5.7484 4.2399C5.71533 4.64467 5.71422 5.17649 5.71422 6.00014L5.71422 14.0001C5.71422 14.8238 5.71533 15.3556 5.7484 15.7604C5.78011 16.1485 5.83393 16.2923 5.86992 16.363C6.00688 16.6318 6.22543 16.8503 6.49423 16.9873C6.56486 17.0233 6.70875 17.0771 7.09684 17.1088C7.50161 17.1419 8.03343 17.143 8.85707 17.143L11.1428 17.143C11.9664 17.143 12.4983 17.1419 12.903 17.1088C13.2911 17.0771 13.435 17.0233 13.5056 16.9873C13.7744 16.8503 13.993 16.6318 14.1299 16.363C14.1659 16.2923 14.2198 16.1485 14.2515 15.7604C14.2845 15.3556 14.2856 14.8238 14.2856 14.0001L14.2856 6.00014C14.2856 5.17649 14.2845 4.64467 14.2515 4.2399C14.2198 3.85181 14.1659 3.70793 14.1299 3.6373C13.993 3.36849 13.7744 3.14995 13.5056 3.01299C13.435 2.977 13.2911 2.92317 12.903 2.89146C12.4983 2.85839 11.9664 2.85728 11.1428 2.85728ZM8.57136 15.0001C8.57136 14.6056 8.89116 14.2859 9.28564 14.2859L10.7142 14.2859C11.1087 14.2859 11.4285 14.6056 11.4285 15.0001C11.4285 15.3946 11.1087 15.7144 10.7142 15.7144L9.28564 15.7144C8.89116 15.7144 8.57136 15.3946 8.57136 15.0001Z"
+                      fill="rgb(38,41,49)"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <span>+ 375(44) 121 12 12</span></a
+                >
+              </div>
+              <div class="footer_third_group">
+                <a href="#" class="footer_third_group_p dark_link"
+                  >
+                  <svg
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="20.000000"
+                    height="20.000000"
+                    fill="none"
+                  >
+                    <rect
+                      id="mail_outline_28"
+                      width="20.000000"
+                      height="20.000000"
+                      x="0.000000"
+                      y="0.000000"
+                    />
+                    <path
+                      id="↳ Icon Color"
+                      d="M1.42859 9.71408C1.42859 7.31385 1.42859 6.11374 1.8957 5.19697C2.30659 4.39057 2.96222 3.73493 3.76863 3.32405C4.68539 2.85693 5.88551 2.85693 8.28573 2.85693L11.7143 2.85693C14.1145 2.85693 15.3146 2.85693 16.2314 3.32405C17.0378 3.73493 17.6934 4.39057 18.1043 5.19697C18.5714 6.11374 18.5714 7.31385 18.5714 9.71408L18.5714 10.2855C18.5714 12.6857 18.5714 13.8858 18.1043 14.8026C17.6934 15.609 17.0378 16.2646 16.2314 16.6755C15.3146 17.1426 14.1145 17.1426 11.7143 17.1426L8.28573 17.1426C5.88551 17.1426 4.68539 17.1426 3.76863 16.6755C2.96222 16.2646 2.30659 15.609 1.8957 14.8026C1.42859 13.8858 1.42859 12.6857 1.42859 10.2855L1.42859 9.71408ZM8.28573 4.28551L11.7143 4.28551C12.938 4.28551 13.7698 4.28662 14.4128 4.33915C15.0391 4.39032 15.3594 4.48307 15.5828 4.59692C15.6351 4.62356 15.6865 4.65175 15.7368 4.68142L11.9193 8.49892C11.4867 8.93156 11.1922 9.22527 10.9463 9.43402C10.7067 9.63736 10.5607 9.71781 10.4415 9.75656C10.1546 9.84978 9.84548 9.84978 9.55856 9.75656C9.43932 9.71781 9.29329 9.63736 9.05376 9.43402C8.80786 9.22527 8.51337 8.93156 8.08073 8.49892L4.26323 4.68142C4.31356 4.65175 4.3649 4.62356 4.41719 4.59692C4.64062 4.48307 4.96091 4.39032 5.58721 4.33915C6.2302 4.28662 7.06205 4.28551 8.28573 4.28551ZM3.25307 5.69157C3.2234 5.7419 3.19521 5.79324 3.16857 5.84553C3.05473 6.06896 2.96198 6.38925 2.91081 7.01556C2.85827 7.65854 2.85716 8.49039 2.85716 9.71408L2.85716 10.2855C2.85716 11.5092 2.85827 12.341 2.91081 12.984C2.96198 13.6103 3.05473 13.9306 3.16857 14.154C3.44249 14.6917 3.87958 15.1287 4.41719 15.4027C4.64062 15.5165 4.96091 15.6093 5.58721 15.6604C6.2302 15.713 7.06205 15.7141 8.28573 15.7141L11.7143 15.7141C12.938 15.7141 13.7698 15.713 14.4128 15.6604C15.0391 15.6093 15.3594 15.5165 15.5828 15.4027C16.1205 15.1287 16.5575 14.6917 16.8315 14.154C16.9453 13.9306 17.0381 13.6103 17.0892 12.984C17.1418 12.341 17.1429 11.5092 17.1429 10.2855L17.1429 9.71408C17.1429 8.49039 17.1418 7.65854 17.0892 7.01556C17.0381 6.38925 16.9453 6.06896 16.8315 5.84553C16.8048 5.79324 16.7766 5.7419 16.747 5.69157L12.9086 9.52993C12.5021 9.93649 12.1665 10.2721 11.8708 10.5231C11.5637 10.7838 11.253 10.995 10.8829 11.1152C10.3091 11.3017 9.69095 11.3017 9.11711 11.1152C8.74708 10.995 8.43632 10.7838 8.12922 10.5231C7.83355 10.2721 7.498 9.93651 7.09143 9.52993L3.25307 5.69157Z"
+                      fill="rgb(38,41,49)"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <span>Moneyfinaid@gmail.com</span></a
+                >
+              </div>
             </div>
-          </div>
           </div>
           <div class="footer_block2">
-            <a href="#" class="footer_block2_p">Пользовательское соглашение</a>
-            <a href="#" class="footer_block2_p">Политика конфиденциальности</a>
-            <a href="#" class="footer_block2_p">Публичная оферта</a>
+            <a href="#" class="footer_block2_p gray_link2"
+              >Пользовательское соглашение</a
+            >
+            <a href="#" class="footer_block2_p gray_link2"
+              >Политика конфиденциальности</a
+            >
+            <a href="#" class="footer_block2_p gray_link2">Публичная оферта</a>
           </div>
         </div>
       </div>
