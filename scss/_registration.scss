@@ -63,3 +63,27 @@ letter-spacing: 0%;
 text-align: left;
 background: none;
 }
+@media (max-width: 992px){
+    .registration{
+        background-image: none;
+    }
+    .registration_wrapper{
+        padding: 24px 0;
+    }
+    .registration_wrapper_title{
+        font-size: 18px;
+        margin-bottom: 24px;
+    }
+    .registration_wrapper_text{
+        font-size: 14px;
+    }
+    .buttons_group{
+        flex-direction: column;
+        align-items: center;
+    }
+    .registration_button{
+        max-width: 370px;
+        width: 100%;
+        text-align: center;
+    }
+}

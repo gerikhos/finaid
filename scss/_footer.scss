@@ -79,3 +79,39 @@ text-align: left;
     width: 100%;
     gap: 10px;
 }
+@media (max-width:992px){
+.footer_first{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.footer_logo{
+    max-width: 104px;
+}
+.footer_block1{
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.copyright{
+    margin: 0;
+}
+.footer_second{
+    justify-content: space-between;
+    gap: 30px;
+    flex: 1 1 420px
+}
+.footer_second_li{
+    font-size: 14px;
+}
+.footer_third_group_p{
+    font-size: 16px;
+}
+.footer_block2{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.footer{
+    padding: 32px 0;
+}
+}

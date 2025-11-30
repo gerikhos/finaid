@@ -141,7 +141,6 @@ hr {
   text-align: left;
   border: 1px solid rgba(196, 199, 207, 1);
   border-radius: 30px;
-
 }
 .textbox_message {
   padding: 16px 20px;
@@ -155,24 +154,80 @@ hr {
   border: 1px solid rgba(196, 199, 207, 1);
   border-radius: 30px;
 }
-.answers_right_part3{
-    display: flex;
-    justify-content: center;
+.answers_right_part3 {
+  display: flex;
+  justify-content: center;
 }
-.button_send{
-    color: rgba(38, 41, 49, 1);
-font-family: Inter;
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
-background: none;
-    padding: 16px 40px;
-    border: 1px solid rgba(1, 118, 255, 1);
-border-radius: 72px;
-
+.button_send {
+  color: rgba(38, 41, 49, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  background: none;
+  padding: 16px 40px;
+  border: 1px solid rgba(1, 118, 255, 1);
+  border-radius: 72px;
 }
-.details_div{
-padding: 0 24px 24px;
+.details_div {
+  padding: 0 24px 24px;
+}
+@media (max-width: 992px) {
+  .answers_legend1 {
+    padding: 12px;
+    font-size: 14px;
+    gap: 8px;
+  }
+  .answers_left_part {
+    gap: 8px;
+  }
+  .answers_wrapper_title {
+    font-size: 18px;
+    margin-bottom: 32px;
+  }
+  .answers_wrapper {
+    padding: 64px 0 128px;
+  }
+  .answers_right_part {
+    padding: 18px 12px;
+    gap: 18px;
+    width: 100%
+  }
+  .answers_right_part_title {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  .answers_right_part_text {
+    font-size: 14px;
+    line-height: 130%;
+  }
+  .answers_right_part2{
+    gap: 12px;
+  }
+  .textbox_name {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+  .textbox_phone {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+  .textbox_message {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+  .button_send {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media(max-width:554px){
+  .answers_block{
+    flex-wrap: wrap;
+  }
 }
