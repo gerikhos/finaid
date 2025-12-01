@@ -53,20 +53,25 @@
   width: 72px;
   height: 72px;
 }
-@media (max-width:992px){
-  .cript_wrapper{
+@media (max-width: 992px) {
+  .cript_wrapper {
     padding: 48px 0 64px;
     align-items: flex-start;
   }
-  .cript_title{
+  .cript_title {
     font-size: 18px;
+    line-height: 22px;
   }
-  .cript_text{
+  .cript_text {
     margin: 16px 0 32px;
     font-size: 14px;
     text-align: left;
   }
-.cript_video video{
-  width: 100%;
-}
+  .cript_video video {
+    width: 100%;
+  }
+  .cript_video_player {
+    height: 40px;
+    width: 40px;
+  }
 }

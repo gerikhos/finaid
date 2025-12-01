@@ -102,6 +102,9 @@
   .menu::after {
     display: block;
   }
+  .header_wrapper {
+    padding-top: 12px;
+  }
 }
 .welcome {
   background-color: rgb(244, 248, 250);
@@ -353,12 +356,12 @@
   .textbox_password {
     max-width: none;
     font-size: 14px;
-    padding: 12px 8px 12px 20px;
+    padding: 12px 20px;
   }
   .textbox_login {
     max-width: none;
     font-size: 14px;
-    padding: 12px 8px 12px 20px;
+    padding: 12px 20px;
     color: rgb(0, 38, 255);
   }
   .login {
@@ -371,14 +374,14 @@
     max-width: none;
     width: 100%;
     text-align: center;
-    padding: 12px 0;
+    padding: 12px;
     font-size: 14px;
   }
   .right_part_button {
     max-width: none;
     width: 100%;
     text-align: center;
-    padding: 12px 0;
+    padding: 12px;
     font-size: 14px;
   }
   .no_account {
@@ -682,6 +685,7 @@
   .how_it_works_title {
     font-size: 18px;
     font-weight: 400;
+    line-height: 22px;
   }
   .how_it_works_block {
     flex-direction: row;
@@ -770,6 +774,7 @@
     text-align: center;
     padding: 12px 0;
     font-size: 14px;
+    margin-top: 40px;
   }
 }
 .cript {
@@ -843,6 +848,7 @@
   }
   .cript_title {
     font-size: 18px;
+    line-height: 22px;
   }
   .cript_text {
     margin: 16px 0 32px;
@@ -851,6 +857,10 @@
   }
   .cript_video video {
     width: 100%;
+  }
+  .cript_video_player {
+    height: 40px;
+    width: 40px;
   }
 }
 .registration {
@@ -927,7 +937,7 @@
     background-image: none;
   }
   .registration_wrapper {
-    padding: 24px 0;
+    padding: 24px 0 20px;
   }
   .registration_wrapper_title {
     font-size: 18px;
@@ -939,6 +949,8 @@
   .buttons_group {
     flex-direction: column;
     align-items: center;
+    margin-top: 24px;
+    gap: 16px;
   }
   .registration_button {
     max-width: 370px;
@@ -1197,9 +1209,6 @@
 
 .gray_link:hover {
   color: rgb(38, 41, 49);
-  font-family: Inter;
-  font-size: 16px;
-  font-weight: 400;
   line-height: 19px;
   letter-spacing: 0%;
   text-align: left;
@@ -1207,9 +1216,6 @@
 
 .gray_link:active {
   color: rgb(38, 41, 49);
-  font-family: Inter;
-  font-size: 16px;
-  font-weight: 400;
   line-height: 19px;
   letter-spacing: 0%;
   text-align: left;
@@ -1217,9 +1223,6 @@
 
 .dark_link:hover {
   color: rgb(0, 0, 0);
-  font-family: Inter;
-  font-size: 16px;
-  font-weight: 400;
   line-height: 19px;
   letter-spacing: 0%;
   text-align: left;
@@ -1227,9 +1230,6 @@
 
 .blue_link:hover {
   color: rgb(23, 82, 151);
-  font-family: Inter;
-  font-size: 16px;
-  font-weight: 400;
   line-height: 19px;
   letter-spacing: 0%;
   text-align: left;
@@ -1247,6 +1247,14 @@
   }
   .studying_video {
     margin-top: 32px;
+  }
+  .studying_video_player {
+    width: 40px;
+    height: 40px;
+  }
+  .svg_play {
+    width: 20px;
+    height: 20px;
   }
 }
 .answers {
@@ -1326,7 +1334,7 @@ hr {
 }
 
 .answers_details_li {
-  color: 700, rgb(38, 41, 49);
+  color: rgb(38, 41, 49);
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
@@ -1336,7 +1344,7 @@ hr {
 }
 
 .answers_details_p {
-  color: 700, rgb(38, 41, 49);
+  color: rgb(38, 41, 49);
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
@@ -1456,6 +1464,7 @@ hr {
   .answers_wrapper_title {
     font-size: 18px;
     margin-bottom: 32px;
+    line-height: 22px;
   }
   .answers_wrapper {
     padding: 64px 0 128px;
@@ -1464,6 +1473,7 @@ hr {
     padding: 18px 12px;
     gap: 18px;
     width: 100%;
+    border-radius: 20px;
   }
   .answers_right_part_title {
     font-size: 16px;
@@ -1494,6 +1504,15 @@ hr {
   .button_send {
     width: 100%;
     text-align: center;
+  }
+  .details_div {
+    padding: 0 12px 12px;
+  }
+  .answers_details_p {
+    font-size: 14px;
+  }
+  .answers_details_li {
+    font-size: 14px;
   }
 }
 @media (max-width: 554px) {
@@ -1611,7 +1630,7 @@ hr {
   }
   .footer_second {
     justify-content: space-between;
-    gap: 30px;
+    gap: 32px;
     flex: 1 1 420px;
   }
   .footer_second_li {
@@ -1624,6 +1643,9 @@ hr {
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 16px;
+  }
+  .footer_third {
+    gap: 17px;
   }
   .footer {
     padding: 32px 0;
@@ -1769,33 +1791,4 @@ hr {
     margin: 0 auto;
     padding: 0 12px;
   }
-}
-/*
-@media (max-width: 320px) {
-
-  .how_it_works_block img {
-    max-width: 104px;
-  }
-
-
-  .how_it_works_block_text1 {
-    color: var(--gray 500, rgba(97, 99, 109, 1));
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 130%;
-    letter-spacing: 0%;
-    text-align: left;
-    max-width: 152px;
-  }
-  .how_it_works_block_title1 {
-    color: var(--gray 700, rgba(38, 41, 49, 1));
-    font-family: RF Dewi Extended;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
-    letter-spacing: 0%;
-    text-align: left;
-  }
-}
-*//*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
