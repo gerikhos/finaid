@@ -40,6 +40,7 @@
   width: 20px;
   position: relative;
   background: none;
+  z-index: 2;
 }
 .menu::before {
   width: 100%;
@@ -52,6 +53,7 @@
   left: 0;
   transform: translateY(-50%);
   content: "";
+  transition: 0.4s all ease;
 }
 .menu::after {
   width: 100%;
@@ -64,6 +66,44 @@
   left: 0;
   transform: translateY(-50%);
   content: "";
+  transition: 0.4s all ease;
+}
+
+.menu_active {
+  &::before {
+    transform: translateY(-50%) rotate(45deg);
+    top: auto;
+  }
+  & span {
+    display: none;
+  }
+  &::after {
+    transform: translateY(-50%) rotate(-45deg);
+    top: auto;
+  }
+}
+
+.burger_contacts {
+  display: none;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+.burger_contacts_a {
+  color: rgba(97, 99, 109, 1);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.header_logo {
+  position: relative;
+  z-index: 3;
+}
+.header_wrapper_nav {
+  flex: 0 1 784px;
 }
 .header_nav {
   display: flex;
@@ -80,10 +120,11 @@
   letter-spacing: 0%;
   text-align: left;
 }
+.burger_button {
+  display: none;
+}
+
 @media (max-width: 992px) {
-  .header_nav {
-    display: none;
-  }
   .avtor {
     display: none;
   }
@@ -93,8 +134,58 @@
   .menu::after {
     display: block;
   }
-  .header_wrapper{
+  .header_wrapper {
     padding-top: 12px;
   }
+  .header_wrapper_nav {
+    display: none;
+  }
+  .burger_contacts {
+    display: flex;
+  }
+  .header_wrapper_nav_active {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(244, 248, 250, 1);
+    z-index: 2;
+    gap: 40px;
+      padding-top: 86px;
+    & .header_nav {
+      flex-direction: column;
+      gap: 32px;
+      align-items: center;
+      flex: initial;
+    }
+    & .header_nav_li {
+      & a {
+        color: rgba(38, 41, 49, 1);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: center;
+      }
+    }
+    & .burger_button {
+      display: block;
+      color: rgba(255, 255, 255, 1);
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0%;
+      text-align: center;
+      padding: 12px 40px;
+      background: rgba(1, 118, 255, 1);
+      border: 1px solid rgba(1, 118, 255, 1);
+      border-radius: 72px;
+      align-self: center;
+    }
+  }
 }
-
